@@ -1,0 +1,6 @@
+fidelity_estimate=0.9772572944786607
+simulation_time=3020.19526720047
+final_state_memory=31296
+shot_time=13.883146047592163
+expectation_value_time=0.7007846832275391
+mirror_fidelity=0.9985383603159905
