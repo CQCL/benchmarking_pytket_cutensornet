@@ -15,7 +15,7 @@ dagger_circ_dir = Path("challenge_files/attachments/dagger_circuits/pytket_orig"
 args = sys.argv[1].split(" ")
 gpu_id = int(args[0])
 settings_dir = Path(args[1])
-circname = args[2].split(".json")[0]
+circname = args[2]
 
 # Guarantee that the necessary directories exist
 (settings_dir / "logs").mkdir(exist_ok=True)
