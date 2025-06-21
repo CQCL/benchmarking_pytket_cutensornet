@@ -1,0 +1,2 @@
+TFIM_honeycomb_PBC_Jz=1.0_hx=3.0_dt=0.3_n_trotter_steps=18_Lx=4_Ly=7
+XZ_honeycomb_obc_J=1_dt=0.1_n_trotter_steps=14_Lx=4_Ly=7

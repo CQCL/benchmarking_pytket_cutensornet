@@ -1,0 +1,17 @@
+t_injections_balanced
+t_injections_high_rate
+t_injections_high_distance
+t_injections_colour
+linear_balanced
+diamond_balanced
+diamond_high_rate
+diamond_high_distance
+diamond_colour
+linear_high_distance
+linear_high_rate
+XZ_square_obc_J=1_dt=0.5_n_trotter_steps=14_Lx=8_Ly=7
+XZ_square_obc_J=1_dt=0.5_n_trotter_steps=20_Lx=8_Ly=7
+TFIM_square_obc_Jz=1.0_hx=4.0_dt=0.5_n_trotter_steps=20_Lx=8_Ly=7
+TFIM_honeycomb_obc_Jz=1.0_hx=6.0_dt=0.3_n_trotter_steps=14_Lx=4_Ly=7
+TFIM_square_PBC_Jz=1.0_hx=2.0_dt=0.5_n_trotter_steps=4_Lx=8_Ly=7
+TFIM_square_PBC_Jz=1.0_hx=8.0_dt=0.3_n_trotter_steps=16_Lx=8_Ly=7

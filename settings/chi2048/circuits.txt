@@ -1,0 +1,1 @@
+TFIM_square_obc_Jz=1.0_hx=4.0_dt=0.5_n_trotter_steps=4_Lx=8_Ly=7
