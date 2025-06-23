@@ -4,7 +4,7 @@
 #SBATCH -G 4
 #SBATCH -q regular
 #SBATCH -J bench_chall
-#SBATCH -t 10:00:00
+#SBATCH -t 3:00:00
 #SBATCH -A m4147
 
 #run the application:
