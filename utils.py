@@ -44,5 +44,19 @@ if __name__ == "__main__":
       circ_with_fidelity.sort(key=lambda p: p[1])
       for circ, fid, t in circ_with_fidelity:
         print(f"{circ}: {fid} (sim: {round(t,2)}s)")
+    case "--find-band":
+      min = float(sys.argv[2])
+      max = float(sys.argv[3])
+      for settings_subdir in Path("settings").iterdir():
+        for metrics_file in (settings_subdir / "metrics").iterdir():
+          with open(metrics_file, "r") as f:
+            lines = f.readlines()
+            mirror_fid_line = lines[-1].strip()
+            if "mirror_fidelity" not in mirror_fid_line:  # For t_injection circuits
+              continue
+            mirror_fidelity = float(mirror_fid_line.split("=")[-1])
+            if mirror_fidelity >= min and mirror_fidelity < max:
+              circname = str(metrics_file).split("/")[-1].split(".txt")[0]
+              print(circname)
     case _:
       print(f"Unrecognised option {option}")
