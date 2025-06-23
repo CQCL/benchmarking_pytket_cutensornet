@@ -1,10 +1,10 @@
 #!/bin/bash
 #SBATCH -N 1
-#SBATCH -C gpu
+#SBATCH -C gpu&hbm80g
 #SBATCH -G 4
-#SBATCH -q debug
+#SBATCH -q regular
 #SBATCH -J bench_chall
-#SBATCH -t 00:10:00
+#SBATCH -t 10:00:00
 #SBATCH -A m4147
 
 #run the application:
