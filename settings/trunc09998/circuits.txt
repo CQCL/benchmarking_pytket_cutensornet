@@ -1,0 +1,3 @@
+mvsp_cauchy2d_chebyshev_d5_n10
+mvsp_ricker2d_chebyshev_d5_n25
+mvsp_gaussian2d_chebyshev_d10_n10

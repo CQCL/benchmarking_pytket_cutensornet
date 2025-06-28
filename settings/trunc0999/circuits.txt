@@ -1,0 +1,8 @@
+mvsp_gaussian2d_chebyshev_d5_n10
+mvsp_gaussian2d_chebyshev_d5_n25
+mvsp_ricker2d_fourier_d10_n40
+mvsp_ricker2d_fourier_d10_n10
+mvsp_ricker2d_fourier_d10_n25
+uccsd_sto3g_NaOH
+uccsd_sto3g_NaCl
+linear_colour

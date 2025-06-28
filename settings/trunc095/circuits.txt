@@ -1,0 +1,4 @@
+TFIM_square_obc_Jz=1.0_hx=8.0_dt=0.1_n_trotter_steps=8_Lx=8_Ly=7
+mvsp_gaussian2d_fourier_d5_n10
+mvsp_gaussian2d_fourier_d5_n25
+mvsp_gaussian2d_fourier_d10_n25
