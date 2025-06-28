@@ -1,0 +1,4 @@
+uccsd_sto3g_SiO2
+uccsd_sto3g_SO2
+uccsd_sto3g_NF3
+uccsd_sto3g_HNO3

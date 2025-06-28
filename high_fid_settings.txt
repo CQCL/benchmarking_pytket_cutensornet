@@ -13,15 +13,12 @@ circ_16_mean_dict
 circ_32_mean_dict
 circ_64_mean_dict
 circ_8_mean_dict
-# truncation_fidelity=0.9
+# truncation_fidelity=0.8
 uccsd_sto3g_SiO2
 uccsd_sto3g_SO2
-uccsd_sto3g_NaOH
-uccsd_sto3g_NaCl
 uccsd_sto3g_NF3
-TFIM_honeycomb_PBC_Jz=1.0_hx=6.0_dt=0.5_n_trotter_steps=14_Lx=4_Ly=7
-TFIM_honeycomb_PBC_Jz=1.0_hx=6.0_dt=0.5_n_trotter_steps=16_Lx=4_Ly=7
-TFIM_honeycomb_PBC_Jz=1.0_hx=6.0_dt=0.5_n_trotter_steps=18_Lx=4_Ly=7
+uccsd_sto3g_HNO3
+# truncation_fidelity=0.9
 TFIM_honeycomb_PBC_Jz=1.0_hx=6.0_dt=0.5_n_trotter_steps=20_Lx=4_Ly=7
 mvsp_ricker2d_chebyshev_d10_n25
 uccsd_sto3g_NHCl2
@@ -29,15 +26,21 @@ uccsd_sto3g_C3H6
 uccsd_sto3g_N2O
 uccsd_sto3g_CO2
 uccsd_sto3g_SiF4
-uccsd_sto3g_HNO3
 uccsd_sto3g_Na2S
 XZ_square_PBC_J=1_dt=0.3_n_trotter_steps=16_Lx=8_Ly=7
-# truncation_fidelity=0.99
-t_injections_steane
-linear_colour
-linear_steane
 diamond_steane
+# truncation_fidelity=0.95
+TFIM_square_obc_Jz=1.0_hx=8.0_dt=0.1_n_trotter_steps=8_Lx=8_Ly=7
+# truncation_fidelity=0.99
+TFIM_honeycomb_PBC_Jz=1.0_hx=6.0_dt=0.5_n_trotter_steps=14_Lx=4_Ly=7
+TFIM_honeycomb_PBC_Jz=1.0_hx=6.0_dt=0.5_n_trotter_steps=16_Lx=4_Ly=7
+TFIM_honeycomb_PBC_Jz=1.0_hx=6.0_dt=0.5_n_trotter_steps=18_Lx=4_Ly=7
+t_injections_steane
+linear_steane
 # truncation_fidelity=0.999
+linear_colour
+uccsd_sto3g_NaOH
+uccsd_sto3g_NaCl
 mvsp_cauchy2d_fourier_d5_n10
 mvsp_cauchy2d_fourier_d5_n40
 mvsp_cauchy2d_fourier_d5_n25
@@ -66,14 +69,14 @@ mvsp_gaussian2d_chebyshev_d5_n10
 mvsp_ricker2d_chebyshev_d5_n10
 mvsp_gaussian2d_chebyshev_d5_n25
 XZ_square_obc_J=1_dt=0.1_n_trotter_steps=10_Lx=8_Ly=7
-XZ_honeycomb_obc_J=1_dt=0.1_n_trotter_steps=6_Lx=4_Ly=7
-TFIM_square_obc_Jz=1.0_hx=8.0_dt=0.1_n_trotter_steps=8_Lx=8_Ly=7
 # truncation_fidelity=0.99995
 mvsp_cauchy2d_chebyshev_d5_n10
 mvsp_ricker2d_chebyshev_d5_n25
 # truncation_fidelity=0.99999
 mvsp_ricker2d_chebyshev_d10_n10
 mvsp_gaussian2d_chebyshev_d10_n10
+# chi 128
+XZ_honeycomb_obc_J=1_dt=0.1_n_trotter_steps=6_Lx=4_Ly=7
 # chi 256
 TFIM_honeycomb_PBC_Jz=1.0_hx=3.0_dt=0.3_n_trotter_steps=18_Lx=4_Ly=7
 XZ_honeycomb_obc_J=1_dt=0.1_n_trotter_steps=14_Lx=4_Ly=7
