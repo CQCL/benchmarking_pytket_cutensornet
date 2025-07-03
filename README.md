@@ -39,6 +39,10 @@ The state of the quantum circuit is stored as an MPS and evolved throughout the 
 - **chi**. Sets the maximum value allowed for the dimension of the virtual bonds. Higher implies better approximation but more computational resources. If not provided, chi will be unbounded.
 - **truncation_fidelity**. The virtual bond will be truncated to the minimum dimension that satisfies `|<psi|phi>|^2 >= trucantion_fidelity`, where `|psi>` and `|phi>` are the states before and after truncation (both normalised). If not provided, it will default to its maximum value 1.
 
+#### Calculation of the mirror fidelity
+
+After the circuit is simulated we obtain the resulting MPS and then apply the dagger circuit to it, guaranteeing no gate cancellation. The simulation through the dagger circuit uses the same configuration of parameters. The inner product with the zero state is calculated explicitly by tensor network contraction on the final MPS.
+
 #### Calculation of the fidelity estimate
 
 Other than the mirror fidelity, which is calculated as described in the instructions for the challenge, we also provide a fidelity estimate _lower bound_.
@@ -64,3 +68,4 @@ Here we indicate other details requested from the README file by the instruction
 - The parameters the algorithm admits are described in the previous section; these are `chi` and `truncation_fidelity`. Only one of the two can be set to a non-default value. The values for each of the simulations appear in the `*_settings.txt` file in the corresponding branch of the submission.
 - There are no additional source of inaccuracies not accounted for by the fidelity metrics.
 - The library is open sourced, including the custom MPS implementation (see repository [here](https://github.com/CQCL/pytket-cutensornet)). It uses NVIDIA's CuTensorNet as a dependecy, which is not open sourced (although it's Python interface is) but does not require a license to use.
+- The simulations were run using version 0.12.0 from `pytket-cutensornet` which depends on cuTensorNet 2.17.0 (cuQuantum 25.03).
