@@ -1,6 +1,4 @@
 linear_colour
-uccsd_sto3g_NaOH
-uccsd_sto3g_NaCl
 mvsp_cauchy2d_fourier_d5_n10
 mvsp_cauchy2d_fourier_d5_n40
 mvsp_cauchy2d_fourier_d5_n25
