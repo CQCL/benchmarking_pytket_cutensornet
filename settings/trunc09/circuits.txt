@@ -2,10 +2,4 @@ diamond_steane
 linear_steane
 mvsp_gaussian2d_fourier_d5_n40
 mvsp_gaussian2d_fourier_d10_n40
-uccsd_sto3g_N2O
-uccsd_sto3g_NHCl2
-uccsd_sto3g_CO2
-uccsd_sto3g_C3H6
 TFIM_honeycomb_PBC_Jz=1.0_hx=6.0_dt=0.5_n_trotter_steps=20_Lx=4_Ly=7
-uccsd_sto3g_Na2S
-uccsd_sto3g_SiF4
