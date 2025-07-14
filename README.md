@@ -1,4 +1,4 @@
-This repository contains the scripts and results for the submission of pytket-cutensornet (aka pytket-mps) to the benchmarking challenge from Quantinuum [**TODO** the files sent to participants (including instructions) will be publicly posted and linked here].
+This repository contains the scripts and results for the submission of pytket-cutensornet (aka pytket-mps) to the benchmarking challenge from Quantinuum. You can download the files sent to the participants from here: https://doi.org/10.5281/zenodo.15878875
 
 ## Disclaimer
 
